@@ -1,0 +1,42 @@
+{
+    "name": "Galga Multiplayer(edited)",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "darts": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2",
+        "sprite-scaling": "*",
+        "controller": "*",
+        "arcade-minimap": "github:microsoft/arcade-minimap#v0.6.1",
+        "radio-broadcast": "*",
+        "corgio": "*",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24",
+        "multiplayer": "*",
+        "arcade-piano-roll": "github:microsoft/arcade-piano-roll#v0.0.1",
+        "arcade-mini-menu": "github:riknoll/arcade-mini-menu#v0.1.0",
+        "arcade-fancy-text": "github:riknoll/arcade-fancy-text#v0.2.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.0.14",
+        "tag": "v1.0.14",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/1460ac1c88950799eb51c9c297588c8abdc91077",
+        "target": "4.1.25",
+        "pxt": "6.1.41",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
